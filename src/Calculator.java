@@ -23,7 +23,7 @@ public class Calculator {
         this.number2 = number2;
     }
 
-    public double calculateQuotient() {
+    public double calcularQuociente() {
         if (number2 != 0) {
             return number1 / number2;
         } else {
@@ -32,7 +32,7 @@ public class Calculator {
         }
     }
 
-    public double calculatePower() {
+    public double calcularPotencia() {
         return Math.pow(number1, number2);
     }
 }

@@ -14,8 +14,8 @@ public class Main {
         Calculator calc = new Calculator(numbers[0],numbers[1]);
 
         String final_msg =  "Números : "+numbers[0]+" e "+numbers[1]+"\n"+
-                            "Potência: "+Double.toString(calc.calculatePower())+"\n"+
-                            "Quociente: "+Double.toString(calc.calculateQuotient());
+                            "Potência: "+Double.toString(calc.calcularPotencia())+"\n"+
+                            "Quociente: "+Double.toString(calc.calcularQuociente());
         JOptionPane.showMessageDialog(null,final_msg);
     }
 
